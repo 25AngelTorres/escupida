@@ -1,0 +1,39 @@
+/*Variables personalizado*/
+:root {
+    --mainBackg1: 	#001831;
+	--mainBackg2:	#0c5460;
+	--mainBackg3:	#fff;
+	--mainResalte:	#27494c!important;
+	--mainResalte2:	#27494c!important;
+}
+
+.navbar{
+	background: -webkit-linear-gradient(75deg, var(--mainBackg1) 10%, var(--mainBackg2) 90%);
+	background: -moz-linear-gradient(75deg, var(--mainBackg1) 10%, var(--mainBackg2) 90%);
+	background: -ms-linear-gradient(75deg, var(--mainBackg1) 10%, var(--mainBackg2) 90%);
+	background: -o-linear-gradient(75deg, var(--mainBackg1) 10%, var(--mainBackg2) 90%);
+	background: linear-gradient(75deg, var(--mainBackg1) 10%, var(--mainBackg2) 90%);
+}
+
+.dropdown-item.notification{
+	width: calc(100% - 12px);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid var(--mainBackg1);
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.sidebar{
+	background: var(--mainBackg1);
+	width:50px !important;
+	high: 100%;
+	padding: 10px;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    width: 250px !important;
+  }
+}
