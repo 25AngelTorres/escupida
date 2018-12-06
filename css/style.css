@@ -32,6 +32,7 @@
 	high: 100%;
 	padding: 10px;
 }
+
 @media (min-width: 768px) {
   .sidebar {
     width: 250px !important;

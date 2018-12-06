@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
@@ -150,14 +149,18 @@
 	<!--Logout Modal-->
 	
 	<!--Barra lateral-->
-	<div class="sidebar">
-	Lateral
+	<div class="sidebar" id="leftbar">
+		<ul class="sidebar navbar-nav">
+			<li class="nav-item">
+				Lateral
+			</li>
+		</ul>
 	</div>
 	<!--Barra Lateral--
 	
 	<!--Contenido-->
 	<div>
-	Contenido
+		Contenido
 	</div>
 	<!--Contenido-->
 	
