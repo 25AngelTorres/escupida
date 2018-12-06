@@ -35,5 +35,7 @@
 @media (min-width: 768px) {
   .sidebar {
     width: 250px !important;
+	high: 100%;
+	background: var(--mainBackg2);
   }
 }
