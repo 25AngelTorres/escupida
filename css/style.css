@@ -30,7 +30,14 @@
 	background: var(--mainBackg1);
 	width:50px !important;
 	high: 100%;
-	padding: 10px;
+	padding-left: 10px;
+}
+.sidebar .nav-item .nav-link {
+	padding: 10px 5px;
+}
+.sidebar .nav-item .nav-link span {
+	color: white;
+	padding-left: 10px;
 }
 
 @media (min-width: 768px) {

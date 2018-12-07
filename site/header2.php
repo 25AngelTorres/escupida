@@ -54,7 +54,7 @@
 	<!-- Barra superior -->
 	<nav class="navbar navbar-expand navbar-dark static-top ">
 		<a class="navbar-brand text-white mr-1" href="">iQMS</a>
-		<button class="btn btn-link btn-sm text-white order-1 order-sm-0 " id="sidebarToggle" href="#">
+		<button class="btn btn-link btn-sm text-white order-1 order-sm-0 sidebarToggle-leftbar" id="sidebarToggle-leftbar" href="#">
 			<i class="fas fa-bars"></i>
 		</button>
 		
@@ -149,11 +149,25 @@
 	<!--Logout Modal-->
 	
 	<!--Barra lateral-->
-	<div class="sidebar" id="leftbar">
+	<div class="sidebar">
 		<ul class="sidebar navbar-nav">
+		
+		
 			<li class="nav-item">
-				Lateral
+				<a class="nav-link" href="">
+					<i class="fas fa-layer-group"></i>
+					<span> Lateral </span>
+
+				</a>
 			</li>
+			<li class="nav-item ">
+          <a class="nav-link" href=" ">
+            <i class="fas fa-layer-group"></i>
+            <span>Manage Documentation</span>
+          </a>
+        </li>
+			
+			
 		</ul>
 	</div>
 	<!--Barra Lateral--
